@@ -1,0 +1,249 @@
+	body
+	{
+		background-color:#f5ebd7;
+	}
+	@font-face
+	{
+		font-family: myRochester;
+		font-weight: bold;
+		src: url('Rochester-Regular.otf');
+	}
+	@media print
+	{
+		body {background-color:white;}
+		#wrapper{background-color:white;}
+	}
+
+	div#wrapper
+	{
+		background-image: url('background.jpg');
+		width:1020px;
+		min-height:800px;
+		margin: 0 auto;	
+	}
+	div#header
+	{
+		height:250px;
+		width:1020px;
+		position:relative;
+	}
+	hr#top
+	{
+		position:absolute;
+		top:174px;
+		width:100%;
+		color:black;
+		background-color:black;
+		height:1px;
+	}
+	
+	a#logo
+	{
+		display: block; 
+		width: 97px; 
+		height: 55px;
+		position:absolute;
+		top:50px;
+		left:200px;
+		background: url('PCLogo.png');
+	}
+	div#title
+	{
+		color:#3b3832;
+		font: 36px normal, garamond;
+		position:absolute;
+		top:127px;
+		left:165px;
+	}
+	img#maini
+	{
+		position:absolute;
+		top:103px;
+		left:685px;
+	}
+	ul#menu
+	{
+		position:absolute;
+		top:158px;
+		left:130px;
+		list-style-type:none;
+		width:712px;
+		overflow:hidden;
+	 	border-bottom: 2px double #000;
+	}
+	ul#menu > li { float: left; padding: 15px; margin:5px;}
+	ul#menu > li > a {color:black; font-size:18px;}
+	ul#menu  > li:hover
+	{
+		border-left:1px solid black;
+		border-right:1px solid black;
+	}
+	.active
+	{
+		padding: right 20px;
+		background-image:url('hover-submeniu.png');
+		background-repeat: no-repeat;
+		background-position: 50% 30px;
+	}
+	div#body
+	{
+		overflow:hidden;
+	 	border-bottom: 3px double #000;
+	}
+	.sidebar
+	{
+		float: left;
+		width:156px;
+		min-height:500px;
+		background-color:#e8edf1;
+		box-shadow: 0px 1px 6px gray;
+		-moz-box-shadow: 0px 1px 6px gray;
+		-webkit-box-shadow: 0px 1px 6px gray;
+		 background-repeat: no-repeat;
+		background-image:url('red-pin.png');
+		background-position: 70% 10px;
+		padding:20px;
+		padding-top: 30px;
+		margin:10px;
+	}
+	.content
+	{
+		float:right;
+		width:750px;
+		/*background-color:red;*/
+		min-height:500px;
+		margin:10px;
+		padding:15px;
+	}
+	div#cont1
+	{
+		margin:20px;
+		width:80%;
+		background-color:blue;
+		min-height:100px;
+		background-color:#f1eee8;
+		box-shadow: 0px 1px 6px gray;
+		-moz-box-shadow: 0px 1px 6px gray;
+		-webkit-box-shadow: 0px 1px 6px gray;
+		 background-repeat: no-repeat;
+		background-image:url('blue-pin.png');
+		background-position: 55% 5px;
+		padding:30px;
+	}
+	.cont1c
+	{
+		margin:20px;
+		width:80%;
+		background-color:blue;
+		min-height:100px;
+		background-color:#f1eee8;
+		box-shadow: 0px 1px 6px gray;
+		-moz-box-shadow: 0px 1px 6px gray;
+		-webkit-box-shadow: 0px 1px 6px gray;
+		 background-repeat: no-repeat;
+		background-image:url('blue-pin.png');
+		background-position: 55% 5px;
+		padding:30px;
+	}
+	div#cont2
+	{
+		float:left;
+		margin:20px;
+		width:30%;
+		background-color:blue;
+		min-height:100px;
+		background-color:#f1eee8;
+		box-shadow: 0px 1px 6px gray;
+		-moz-box-shadow: 0px 1px 6px gray;
+		-webkit-box-shadow: 0px 1px 6px gray;
+		 background-repeat: no-repeat;
+		background-image:url('blue-pin.png');
+		background-position: 55% 10px;
+		padding:20px;
+		padding-top: 30px;
+	}
+	div#cont3
+	{
+		float:left;
+		margin:20px;
+		width:30%;
+		background-color:blue;
+		min-height:200px;
+		background-color:#f1eee8;
+		box-shadow: 0px 1px 6px gray;
+		-moz-box-shadow: 0px 1px 6px gray;
+		-webkit-box-shadow: 0px 1px 6px gray;
+		 background-repeat: no-repeat;
+		background-image:url('blue-pin.png');
+		background-position: 55% 10px;
+		padding:20px;
+		padding-top: 30px;
+	}
+	div#footer
+	{
+		text-align:center;	 	
+		border-bottom: 2px solid #000;
+	}
+	.roc
+	{
+		font-family: 'myRochester', cursive;
+		font-size:30px;
+	}
+	.roc1
+	{
+		font-family: 'myRochester', cursive;
+		font-size:18px;
+	}
+	.roc2
+	{
+		font-family: 'myRochester', cursive;
+		font-size:22px;
+	}
+	.garamond
+	{
+		font: 24px normal garamond;
+	}
+	.garamond2
+	{
+		font: 18px normal garamond;
+	}
+	.p2
+	{
+		font:14px normal garamond;
+	}
+	div#developer
+	{
+		width:20px;
+		height:20px;
+		font-size:0px;
+		transition:height 2s, width 2s;
+		-webkit-transition:height 2s, width 2s;
+		-moz-transition:height 2s, width 2s;
+	}
+	div#developerPage
+	{
+		width:170px;
+		height:20px;
+		font-size:20px;
+		background-image:url('hover-submeniu.png');
+		background-repeat: no-repeat;
+		background-position: 95% 0px;
+	}
+	div#developer:hover
+	{
+		width:150px;
+		height:20px;
+		-webkit-animation:animatie 5s infinite; 
+		-moz-animation:animatie 5s infinite; 
+
+	}
+	@-webkit-keyframes animatie
+	{	
+		from{font-size:0;}
+		to{background:lightblue;font-size:20px;}
+	}
+	@-moz-keyframes animatie
+	{	
+		from{font-size:0;}
+		to{background:lightblue;font-size:20px;}
+	}

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /design/
+Sitemap: https://dl.dropbox.com/u/45855006/sitemap.xml
