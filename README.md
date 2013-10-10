@@ -6,4 +6,4 @@ primavara 2013
 
 site PrestConsult, firma de consultanta in protectia muncii
 
-www.prestconsult.ro (in curand). acum pe www.irikos.devmirror.com
+www.prestconsult.ro (in curand). acum pe http://irikos.devmirror.com
