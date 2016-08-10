@@ -1,10 +1,11 @@
 PrestConsult
 ============
+Update 2016: dead and ungly (first web project ever). <br /><br />
 name: PrestConsult <br />
 domain: consulting <br />
 reason: My Web Techniques project, 2nd year of CS <br />
 technologies: mostly html + css with very little js <br />
-state: ~~~Still needs some work before going online, too static.~~~ <br /> Update 2016: dead and ungly (first web project ever).
+state: ~~~Still needs some work before going online, too static.~~~ <br />
 done: spring 2013 <br />
 
 
