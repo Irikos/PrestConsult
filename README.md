@@ -1,6 +1,6 @@
 PrestConsult
 ============
-Update 2016: dead and ungly (first web project ever). <br /><br />
+Update 2016: dead and ugly (first web project ever). <br /><br />
 name: PrestConsult <br />
 domain: consulting <br />
 reason: My Web Techniques project, 2nd year of CS <br />
